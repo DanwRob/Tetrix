@@ -1,0 +1,366 @@
+[gd_scene load_steps=2 format=3 uid="uid://bnubf1kixrdoc"]
+
+[ext_resource type="Texture2D" uid="uid://cyhll823uqr54" path="res://Assets/Tile.png" id="1_q5ygh"]
+
+[node name="Shapes" type="GridContainer"]
+offset_right = 40.0
+offset_bottom = 40.0
+theme_override_constants/h_separation = 10
+theme_override_constants/v_separation = 10
+columns = 3
+
+[node name="L" type="GridContainer" parent="."]
+modulate = Color(1, 0.498039, 0, 1)
+layout_mode = 2
+theme_override_constants/h_separation = 0
+theme_override_constants/v_separation = 0
+columns = 3
+
+[node name="blankSpace" type="TextureRect" parent="L"]
+modulate = Color(1, 1, 1, 0)
+layout_mode = 2
+texture = ExtResource("1_q5ygh")
+
+[node name="blankSpace2" type="TextureRect" parent="L"]
+modulate = Color(1, 1, 1, 0)
+layout_mode = 2
+texture = ExtResource("1_q5ygh")
+
+[node name="tile" type="TextureRect" parent="L"]
+layout_mode = 2
+texture = ExtResource("1_q5ygh")
+
+[node name="tile2" type="TextureRect" parent="L"]
+layout_mode = 2
+texture = ExtResource("1_q5ygh")
+
+[node name="tile3" type="TextureRect" parent="L"]
+layout_mode = 2
+texture = ExtResource("1_q5ygh")
+
+[node name="tile4" type="TextureRect" parent="L"]
+layout_mode = 2
+texture = ExtResource("1_q5ygh")
+
+[node name="blankSpace3" type="TextureRect" parent="L"]
+modulate = Color(1, 1, 1, 0)
+layout_mode = 2
+texture = ExtResource("1_q5ygh")
+
+[node name="blankSpace4" type="TextureRect" parent="L"]
+modulate = Color(1, 1, 1, 0)
+layout_mode = 2
+texture = ExtResource("1_q5ygh")
+
+[node name="blankSpace5" type="TextureRect" parent="L"]
+modulate = Color(1, 1, 1, 0)
+layout_mode = 2
+texture = ExtResource("1_q5ygh")
+
+[node name="J" type="GridContainer" parent="."]
+modulate = Color(0, 0, 1, 1)
+layout_mode = 2
+theme_override_constants/h_separation = 0
+theme_override_constants/v_separation = 0
+columns = 3
+
+[node name="tile" type="TextureRect" parent="J"]
+layout_mode = 2
+texture = ExtResource("1_q5ygh")
+
+[node name="blankSpace" type="TextureRect" parent="J"]
+modulate = Color(1, 1, 1, 0)
+layout_mode = 2
+texture = ExtResource("1_q5ygh")
+
+[node name="blankSpace2" type="TextureRect" parent="J"]
+modulate = Color(1, 1, 1, 0)
+layout_mode = 2
+texture = ExtResource("1_q5ygh")
+
+[node name="tile2" type="TextureRect" parent="J"]
+layout_mode = 2
+texture = ExtResource("1_q5ygh")
+
+[node name="tile3" type="TextureRect" parent="J"]
+layout_mode = 2
+texture = ExtResource("1_q5ygh")
+
+[node name="tile4" type="TextureRect" parent="J"]
+layout_mode = 2
+texture = ExtResource("1_q5ygh")
+
+[node name="blankSpace3" type="TextureRect" parent="J"]
+modulate = Color(1, 1, 1, 0)
+layout_mode = 2
+texture = ExtResource("1_q5ygh")
+
+[node name="blankSpace4" type="TextureRect" parent="J"]
+modulate = Color(1, 1, 1, 0)
+layout_mode = 2
+texture = ExtResource("1_q5ygh")
+
+[node name="blankSpace5" type="TextureRect" parent="J"]
+modulate = Color(1, 1, 1, 0)
+layout_mode = 2
+texture = ExtResource("1_q5ygh")
+
+[node name="S" type="GridContainer" parent="."]
+modulate = Color(0, 1, 0, 1)
+layout_mode = 2
+theme_override_constants/h_separation = 0
+theme_override_constants/v_separation = 0
+columns = 3
+
+[node name="blankSpace" type="TextureRect" parent="S"]
+modulate = Color(1, 1, 1, 0)
+layout_mode = 2
+texture = ExtResource("1_q5ygh")
+
+[node name="tile" type="TextureRect" parent="S"]
+layout_mode = 2
+texture = ExtResource("1_q5ygh")
+
+[node name="tile4" type="TextureRect" parent="S"]
+layout_mode = 2
+texture = ExtResource("1_q5ygh")
+
+[node name="tile2" type="TextureRect" parent="S"]
+layout_mode = 2
+texture = ExtResource("1_q5ygh")
+
+[node name="tile3" type="TextureRect" parent="S"]
+layout_mode = 2
+texture = ExtResource("1_q5ygh")
+
+[node name="blankSpace2" type="TextureRect" parent="S"]
+modulate = Color(1, 1, 1, 0)
+layout_mode = 2
+texture = ExtResource("1_q5ygh")
+
+[node name="blankSpace3" type="TextureRect" parent="S"]
+modulate = Color(1, 1, 1, 0)
+layout_mode = 2
+texture = ExtResource("1_q5ygh")
+
+[node name="blankSpace4" type="TextureRect" parent="S"]
+modulate = Color(1, 1, 1, 0)
+layout_mode = 2
+texture = ExtResource("1_q5ygh")
+
+[node name="blankSpace5" type="TextureRect" parent="S"]
+modulate = Color(1, 1, 1, 0)
+layout_mode = 2
+texture = ExtResource("1_q5ygh")
+
+[node name="Z" type="GridContainer" parent="."]
+modulate = Color(1, 0, 0, 1)
+layout_mode = 2
+theme_override_constants/h_separation = 0
+theme_override_constants/v_separation = 0
+columns = 3
+
+[node name="tile" type="TextureRect" parent="Z"]
+layout_mode = 2
+texture = ExtResource("1_q5ygh")
+
+[node name="tile4" type="TextureRect" parent="Z"]
+layout_mode = 2
+texture = ExtResource("1_q5ygh")
+
+[node name="blankSpace" type="TextureRect" parent="Z"]
+modulate = Color(1, 1, 1, 0)
+layout_mode = 2
+texture = ExtResource("1_q5ygh")
+
+[node name="blankSpace2" type="TextureRect" parent="Z"]
+modulate = Color(1, 1, 1, 0)
+layout_mode = 2
+texture = ExtResource("1_q5ygh")
+
+[node name="tile2" type="TextureRect" parent="Z"]
+layout_mode = 2
+texture = ExtResource("1_q5ygh")
+
+[node name="tile3" type="TextureRect" parent="Z"]
+layout_mode = 2
+texture = ExtResource("1_q5ygh")
+
+[node name="blankSpace3" type="TextureRect" parent="Z"]
+modulate = Color(1, 1, 1, 0)
+layout_mode = 2
+texture = ExtResource("1_q5ygh")
+
+[node name="blankSpace4" type="TextureRect" parent="Z"]
+modulate = Color(1, 1, 1, 0)
+layout_mode = 2
+texture = ExtResource("1_q5ygh")
+
+[node name="blankSpace5" type="TextureRect" parent="Z"]
+modulate = Color(1, 1, 1, 0)
+layout_mode = 2
+texture = ExtResource("1_q5ygh")
+
+[node name="T" type="GridContainer" parent="."]
+modulate = Color(0.607843, 0, 1, 1)
+layout_mode = 2
+theme_override_constants/h_separation = 0
+theme_override_constants/v_separation = 0
+columns = 3
+
+[node name="blankSpace2" type="TextureRect" parent="T"]
+modulate = Color(1, 1, 1, 0)
+layout_mode = 2
+texture = ExtResource("1_q5ygh")
+
+[node name="tile4" type="TextureRect" parent="T"]
+layout_mode = 2
+texture = ExtResource("1_q5ygh")
+
+[node name="blankSpace" type="TextureRect" parent="T"]
+modulate = Color(1, 1, 1, 0)
+layout_mode = 2
+texture = ExtResource("1_q5ygh")
+
+[node name="tile" type="TextureRect" parent="T"]
+layout_mode = 2
+texture = ExtResource("1_q5ygh")
+
+[node name="tile2" type="TextureRect" parent="T"]
+layout_mode = 2
+texture = ExtResource("1_q5ygh")
+
+[node name="tile3" type="TextureRect" parent="T"]
+layout_mode = 2
+texture = ExtResource("1_q5ygh")
+
+[node name="blankSpace3" type="TextureRect" parent="T"]
+modulate = Color(1, 1, 1, 0)
+layout_mode = 2
+texture = ExtResource("1_q5ygh")
+
+[node name="blankSpace4" type="TextureRect" parent="T"]
+modulate = Color(1, 1, 1, 0)
+layout_mode = 2
+texture = ExtResource("1_q5ygh")
+
+[node name="blankSpace5" type="TextureRect" parent="T"]
+modulate = Color(1, 1, 1, 0)
+layout_mode = 2
+texture = ExtResource("1_q5ygh")
+
+[node name="O" type="GridContainer" parent="."]
+modulate = Color(1, 1, 0, 1)
+layout_mode = 2
+theme_override_constants/h_separation = 0
+theme_override_constants/v_separation = 0
+columns = 3
+
+[node name="tile4" type="TextureRect" parent="O"]
+layout_mode = 2
+texture = ExtResource("1_q5ygh")
+
+[node name="tile" type="TextureRect" parent="O"]
+layout_mode = 2
+texture = ExtResource("1_q5ygh")
+
+[node name="blankSpace" type="TextureRect" parent="O"]
+modulate = Color(1, 1, 1, 0)
+layout_mode = 2
+texture = ExtResource("1_q5ygh")
+
+[node name="tile2" type="TextureRect" parent="O"]
+layout_mode = 2
+texture = ExtResource("1_q5ygh")
+
+[node name="tile3" type="TextureRect" parent="O"]
+layout_mode = 2
+texture = ExtResource("1_q5ygh")
+
+[node name="blankSpace2" type="TextureRect" parent="O"]
+modulate = Color(1, 1, 1, 0)
+layout_mode = 2
+texture = ExtResource("1_q5ygh")
+
+[node name="I" type="GridContainer" parent="."]
+modulate = Color(0, 1, 1, 1)
+layout_mode = 2
+theme_override_constants/h_separation = 0
+theme_override_constants/v_separation = 0
+columns = 4
+
+[node name="blankSpace2" type="TextureRect" parent="I"]
+modulate = Color(1, 1, 1, 0)
+layout_mode = 2
+texture = ExtResource("1_q5ygh")
+
+[node name="blankSpace6" type="TextureRect" parent="I"]
+modulate = Color(1, 1, 1, 0)
+layout_mode = 2
+texture = ExtResource("1_q5ygh")
+
+[node name="blankSpace7" type="TextureRect" parent="I"]
+modulate = Color(1, 1, 1, 0)
+layout_mode = 2
+texture = ExtResource("1_q5ygh")
+
+[node name="blankSpace" type="TextureRect" parent="I"]
+modulate = Color(1, 1, 1, 0)
+layout_mode = 2
+texture = ExtResource("1_q5ygh")
+
+[node name="tile" type="TextureRect" parent="I"]
+layout_mode = 2
+texture = ExtResource("1_q5ygh")
+
+[node name="tile2" type="TextureRect" parent="I"]
+layout_mode = 2
+texture = ExtResource("1_q5ygh")
+
+[node name="tile3" type="TextureRect" parent="I"]
+layout_mode = 2
+texture = ExtResource("1_q5ygh")
+
+[node name="tile4" type="TextureRect" parent="I"]
+layout_mode = 2
+texture = ExtResource("1_q5ygh")
+
+[node name="blankSpace3" type="TextureRect" parent="I"]
+modulate = Color(1, 1, 1, 0)
+layout_mode = 2
+texture = ExtResource("1_q5ygh")
+
+[node name="blankSpace4" type="TextureRect" parent="I"]
+modulate = Color(1, 1, 1, 0)
+layout_mode = 2
+texture = ExtResource("1_q5ygh")
+
+[node name="blankSpace5" type="TextureRect" parent="I"]
+modulate = Color(1, 1, 1, 0)
+layout_mode = 2
+texture = ExtResource("1_q5ygh")
+
+[node name="blankSpace8" type="TextureRect" parent="I"]
+modulate = Color(1, 1, 1, 0)
+layout_mode = 2
+texture = ExtResource("1_q5ygh")
+
+[node name="blankSpace9" type="TextureRect" parent="I"]
+modulate = Color(1, 1, 1, 0)
+layout_mode = 2
+texture = ExtResource("1_q5ygh")
+
+[node name="blankSpace10" type="TextureRect" parent="I"]
+modulate = Color(1, 1, 1, 0)
+layout_mode = 2
+texture = ExtResource("1_q5ygh")
+
+[node name="blankSpace11" type="TextureRect" parent="I"]
+modulate = Color(1, 1, 1, 0)
+layout_mode = 2
+texture = ExtResource("1_q5ygh")
+
+[node name="blankSpace12" type="TextureRect" parent="I"]
+modulate = Color(1, 1, 1, 0)
+layout_mode = 2
+texture = ExtResource("1_q5ygh")
